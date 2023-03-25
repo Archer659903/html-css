@@ -5,46 +5,135 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Oleo+Script&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
-        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oleo+Script&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" />
     <link rel="stylesheet" href="./css/style.css" />
 </head>
 <body>
-      <!-- Шапка -->
-      <header class="page-header">
-        <nav >
-        <a class="logo-link" href="./index.html">Web<span class="logo-site">Studio</span></a>
-        <ul class="site-nav list">
-            <li><a  href="./index.html" class="link">Студія</a></li> 
-            <li><a  href="./portfolio.html" class="link current">Портфоліо</a></li>
-            <li><a  href="" class="link" >Контакти</a></li>
-        </ul>
-    </nav>
-    <ul class="site-nav list">
-        <li><a href="info@devstudio.com" class="contact">info@devstudio.com</a></li>
-        <li><a href="+1 (425) 123-45-63" class="contact">+1 (425) 123-45-63</a></li>
-    </ul>
-    </header>
+       <!-- Шапка -->
+    <header class="page-header">
+        <div class="container">
+              <nav class="main-nav">
+              <a class="logo-link" href="./index.html">Web<span class="logo-site">Studio</span></a>
+              <ul class="site-nav list">
+                  <li class="item"><a  href="./index.html" class="link">Studio</a></li> 
+                  <li class="item"><a  href="./portfolio.html" class="link current">Portfolio</a></li>
+                  <li class="item"><a  href="" class="link" >Contacts</a></li>
+              </ul>
+              <ul class="contact-nav list ">
+                  <li class="item"><a href="info@devstudio.com" class="contact-header">info@devstudio.com</a></li>
+                  <li class="item"><a href="+1 (425) 123-45-63" class="contact-header">+1 212-772-4150</a></li>
+              </ul>
+              </nav>
+          </div> 
+      </header>
 
 <main>
+   
+    <section class="section section-portfolio" > 
+        <div class="container ">
+                <ul class="list filter-buttons">
+                    <li > <button type="button" class="button secondary">All</button> </li>
+                    <li> <button type="button" class="button secondary ">Web-sites</button> </li>
+                    <li> <button type="button" class="button secondary">Apps</button> </li>
+                    <li> <button type="button" class="button secondary">Design</button> </li>
+                    <li> <button type="button" class="button secondary">Marketing</button> </li>
+                </ul>
+            
+                <ul class="porfolio-ul">
+                    <li  >
+                        <img src="./images/portfolio/portfolio-1.jpg" width="370" alt="Example">
+                        <div class="portfolio-element-info">
+                        <h3 class="list-title">Technoduck</h3>
+                        <p>Web-site</p>
+                    </div>
+                    </li>
 
+                    <li  >
+                        <img src="./images/portfolio/portfolio-2.jpg" width="370" alt="Example">
+                        <div class="portfolio-element-info">
+                        <h3 >Poster New Orlean vs Golden Star</h3>
+                        <p>Design</p>
+                    </div>
+                    </li>
 
+                    <li  >
+                        <img src="./images/portfolio/portfolio-3.jpg" width="370" alt="Example">
+                        <div class="portfolio-element-info">
+                        <h3 >Seafood Restaurant</h3>
+                        <p>Apps</p>
+                    </div>
+                    </li>
+
+                    <li  >
+                        <img src="./images/portfolio/portfolio-4.jpg" width="370" alt="Example">
+                        <div class="portfolio-element-info">
+                        <h3>Project Prime</h3>
+                        <p>Marketing</p>
+                    </div>
+                    </li>
+
+                    <li  >
+                        <img src="./images/portfolio/portfolio-5.jpg" width="370" alt="Example">
+                        <div class="portfolio-element-info">
+                        <h3>Project Boxes</h3>
+                        <p>Apps</p>
+                    </div>
+                    </li>
+
+                    <li >
+                        <img src="./images/portfolio/portfolio-6.jpg" width="370" alt="Example">
+                        <div class="portfolio-element-info">
+                        <h3>Inspiration has no Borders</h3>
+                        <p>Web-site</p>
+                        </div>
+                    </li>
+
+                    <li  >
+                        <img src="./images/portfolio/portfolio-7.jpg" width="370" alt="our collega">
+                        <div class="portfolio-element-info">
+                        <h3>Limited Edition</h3>
+                        <p>Design</p>
+                    </div>
+                    </li>
+
+                    <li  >
+                        <img src="./images/portfolio/portfolio-8.jpg" width="370" alt="our collega">
+                        <div class="portfolio-element-info">
+                        <h3>Project LAB</h3>
+                        <p>Marketing</p>
+                    </div>
+                    </li>
+
+                    <li  >
+                        <img src="./images/portfolio/portfolio-9.jpg" width="370" alt="our collega">
+                        <div class="portfolio-element-info">
+                        <h3>Growing Business</h3>
+                        <p>Apps</p>
+                    </div>
+                    </li>
+                </ul>
+             </div>
+    </section>
 
 </main>
 
- <!--Подвал-->
+  <!--Подвал-->
     <footer class="footer">
-        <a class="logo-link" href="./index.html">Web<span class="logo-footer">Studio</span></a>
-            <address> 
-                    <p>м. Київ, пр-т Лесі Українки, 26</p>
-                <ul class="list">
-                    <li><a href="info@devstudio.com" class="contact" >info@devstudio.com</a></li>
-                    <li><a href="+1 (425) 123-45-63" class="contact">+1 (425) 123-45-63</a></li>
+        <div class="container">
+            <a class="logo-link" href="./index.html">Web<span class="logo-footer">Studio</span></a>
+            <div class="contacts">
+            <address class="contact-footer"> 
+                    <p>695 Park Ave, NY 10065, USA</p>
+                <ul class="contact">
+                    <li class="footer-email"><a href="info@devstudio.com" >info@devstudio.com</a></li>
+                    <li class="footer-tel"><a href="+1 (425) 123-45-63" >+1 (425) 123-45-63</a></li>
                 </ul>
             </address>
+            </div>
+        </div>
     </footer>
 </body>
 </html>
